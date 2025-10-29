@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Zara Jones
 
   #### Je startniveau:
   De blauwe piste
@@ -121,17 +121,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week ben ik vooral bezuig geweest met de html afmaken. Hiernaast ben ik ook begonnen met de css van mijn beginpagina, maar ik loop vaak vast bij dingen die mij niet lukken. Dan zit ik een uur dingen uit te proberen voor 1 ding, en dan lukt het uiteindelijk niet waardoor ik dan het oversla. 
+
+Ik loop vooral vast bij de css. Ik vind het last om dingen te positioneren, bijvoorbeeld wanneer ik flex of grid moet gebruiken. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | student 1   nina   | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
+
+
+Eigen vragen:
+- header?
+- hoe zet ik andere dingen over een plaatje? --> plaatje als achtergrond
+- 2e font?  franklin-gothic-compressed,sans-serif
+- buttons footer kleur
 
 
   ### Verslag van meeting
