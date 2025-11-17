@@ -1,18 +1,358 @@
-section:nth-of-type(1) h2 {
-    font-family: BananaGrotesk, sans-serif;
+main h2 {
+    font-family:'FranklinGothic';
     color: var(--color-main);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight:500;
+}
+
+section > h2,
+section > svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+main section:nth-of-type(1) {
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-columns: 1fr max-content 1fr;
+}
+
+main section:nth-of-type(1) article {
+    background-color: var(--color-background);
+    border: 1px var(--color-main) solid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    align-items:center;
+}
+
+main section:nth-of-type(1) button:first-of-type {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+main section:nth-of-type(1) button:last-of-type {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+
+main section:nth-of-type(1) h2 {
+    font-family: 'BananaGrotesk', sans-serif;
+    color: var(--color-main);
+    font-weight: 500;
     font-size: .9em;
+    border-bottom: 1px var(--color-main) solid;
+    margin: 0;
+    padding: 1em;
+    grid-column-start: 1;
+    grid-column-end: -1;
 }
 
 main section:nth-of-type(1) button {
-    font-family: BananaGrotesk, sans-serif;
+    font-family: 'BananaGrotesk', sans-serif;
     background-color: var(--color-main);
     color: var(--color-background);
     border: none;
     padding: 1em 2.5em;
+    z-index: 2;
+    margin: .5em;
+}
+
+main section:nth-of-type(1) img {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+main section:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 1fr max-content 1fr ;
+}
+
+main section:nth-of-type(2) a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px var(--color-main) solid;
+    background-color: var(--color-background);
+    grid-column-start: 2;
+    grid-row-start: 2;
+    z-index: 2;
+}
+
+main section:nth-of-type(2) h2 {
+    font-family: 'BananaGrotesk', sans-serif;
+    margin: .5em;
+    font-size: 1em;
+}
+
+main section:nth-of-type(2) svg {
+    width: 2.3em;
+    height: 2.3em;
+    background-color: var(--color-main);
+    margin: 1px 1px 1px 3em;
+}
+
+main section:nth-of-type(2) video {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+main section:nth-of-type(3) {
+    margin-top: 1em;
+}
+
+main section:nth-of-type(3) h2 {
+    border: 1px var(--color-main) solid;
+    padding: .5em;
+    margin: 0;
+    margin-left: .7em;
+    margin-top: .5em;
+    border-bottom: none;
+}
+
+main section:nth-of-type(3) svg {
+    margin: 1em 1em 0em 0em;
+}
+
+main section:nth-of-type(3) img {
+    width: 90%;
+    height: 90%;
+    margin: 1em;
+    margin-top: 0;
+    border: 1px var(--color-main) solid;
+}
+
+main section:nth-of-type(4) h2 {
+    border: 1px var(--color-main) solid;
+    padding: .5em;
+    margin: 0;
+    margin-left: .7em;
+    margin-top: .5em;
+}
+
+main section:nth-of-type(4) img {
+    width: 90%;
+    height: 90%;
+    margin: 1em;
+    margin-top: 0;
+    border: 1px var(--color-main) solid;
+}
+
+main section:nth-of-type(4) svg {
+    margin: 1em 1em 0em 0em;
+}
+
+main section:nth-of-type(5) h2 {
+    border: 1px var(--color-main) solid;
+    border-bottom: none;
+    padding: .5em;
+    margin: 0;
+    margin-top: .5em;
+}
+
+main section:nth-of-type(5) img {
+    width: 13.75em;
+}
+
+/* Bron: https://chrome.dev/carousel-configurator/ */
+main section:nth-of-type(5) ul {
+    padding: 0;
+    margin:0;
+	padding: 1px;
+	list-style-type:"";
+	
+	display:flex;
+	overflow-x:auto;
+    gap: 1px;
+    background-color: var(--color-main);
+	
+	scroll-snap-type:x mandatory;
+	scroll-behavior:smooth;
+	
+	overscroll-behavior-x:contain;
+	
+	font-size:1em;
+}
+
+main section:nth-of-type(5) li {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 14em 2em;
+    grid-template-rows: 20em max-content;
+    background-color: var(--color-background);
+}
+
+main section:nth-of-type(5) li h3 {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .7em;
+    grid-row-start: 2;
+    margin: 0;
+    padding: 1em;
+
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+
+main section:nth-of-type(5) li img {
+    grid-column-start:1;
+    grid-row-start:1;
+}
+
+main section:nth-of-type(5) li p {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: 0.90em;
+    grid-row-start: 3;
+    margin: 0;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+main section:nth-of-type(5) li svg {
+    margin-top: .5em;
+    margin-right: .5em;
+}
+
+main section:nth-of-type(5) li a {
+    font-family: 'BananaGrotesk', sans-serif;
+    color: var(--color-standard);
+    text-decoration: none;
+    font-size: .7em;
+    grid-row-start: 2;
+    margin: 0;
+    padding: 1em;
+
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+
+main section:nth-of-type(6) {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 6.8em 2rem 6.8em ;
+    padding: .2rem;
+    border: 1px var(--color-main) solid;
+}
+
+main section:nth-of-type(6) button {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .7em;
+    border: none;
+}
+
+main section:nth-of-type(6) button:first-of-type {
+    color: var(--color-background);
+    background-color: var(--color-main);
+    padding: 1.5em;
+}
+
+main section:nth-of-type(6) button:last-of-type {
+    background-color: var(--color-background);
+    color: var(--color-main);
+    padding: 1.5em 2em;
+}
+
+main section:nth-of-type(7) h2 {
+    border: 1px var(--color-main) solid;
+    padding: .5em;
+    margin: 0;
+    margin-left: .7em;
+}
+
+main section:nth-of-type(7) img {
+    width: 90%;
+    height: 90%;
+    margin: 1em;
+    margin-top: 0;
+    border: 1px var(--color-main) solid;
+}
+
+main section:nth-of-type(8) h2 {
+    border: 1px var(--color-main) solid;
+    padding: .5em;
+    margin: 0;
+    margin-left: .7em;
+}
+
+main section:nth-of-type(8) img {
+    width: 90%;
+    height: 90%;
+    margin: 1em;
+    margin-top: 0;
+    border: 1px var(--color-main) solid;
+}
+
+main section:nth-of-type(9) { 
+    background-color: var(--color-main);
+}
+
+main section:nth-of-type(9) h2 { 
+    color: var(--color-background);
+    display: flex;
+    justify-content: center;
+    padding: 2em 0em .5em 0em;
+    margin: 0;
+    font-size: 2.4em;
+}
+
+main section:nth-of-type(9) h3 { 
+    background-color: var(--color-background);
+    color: var(--color-main);
+    margin: 0;
+    padding: .5em;
+    margin-bottom: 1px;
+}
+
+/* Bron: https://chrome.dev/carousel-configurator/ */
+main section:nth-of-type(9) ul { 
+    list-style: none;
+    padding: 0;
+    margin:0;
+	padding:0;
+	list-style-type:"";
+	
+	display:flex;
+	overflow-x:auto;
+	
+	scroll-snap-type:x mandatory;
+	scroll-behavior:smooth;
+	
+	overscroll-behavior-x:contain;
+}
+
+main section:nth-of-type(9) li {
+    font-family: 'FranklinGothic';
+    padding: 1em 1em 3em 1em;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+}
+
+main section:nth-of-type(9) img {
+    width: 19em;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+main section:nth-of-type(9) button {
+    background-color: var(--color-background);
+    border: none;
+    padding: 0;
+    margin-right: 7em;
+    padding: .3em;
+}
+
+main section:nth-of-type(9) svg {
+    background-color: var(--color-background);
 }
 

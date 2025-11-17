@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De blauwe piste
 
   #### Je focus:
-  Surface plane?
+  Surface plane
  
 </details>
 
@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home pagina
-  <img src="readme-images/IMG_2736.JPG" width="375px" alt="Screenshot van de home pagina">
+  <img src="readme-images/FED-Homepage.JPG"  width="375px" alt="Screenshot van de home pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Detailpagina 
-  <img src="readme-images/IMG_2738.JPG" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/FED-Detail-page.JPG" width="375px" alt="Screenshot van een detail pagina">
  
 </details>
 
@@ -56,7 +56,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  1. Bij de “+” zegt de screenreader alleen dat er een button is, niet wat het inhoudt.
+  <img src="readme-images/Test-img1.png" width="375px" alt="Screenshot">
+  2.Er is geen goede alt tekst van de afbeeldingen, er wordt niet omschreven wat er op het plaatje staat. 
+  Niet alle afbeeldingen hebben een alt. 
+  3. Het is lastig voor mij om de screenreader te gebruiken en te begrijpen, omdat ik het zelf nog nooit gebruikt heb. Dus ik kan niet gemakkelijk door de website navigeren met de screenreader.
+  4.<img src="readme-images/Test-img3.png" width="375px" alt="Screenshot">
 
 </details>
 
@@ -68,13 +73,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Diesel-breakdown.jpg" width="375px" alt="Breakdown van beide pagina's">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/IMG_0064.jpgg" width="375px" alt="Breakdown van een dynamisch deel">
 
 </details>
 
@@ -88,26 +90,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week ben ik vooral bezig geweest met de html afmaken. Hiernaast ben ik ook begonnen met de css van mijn beginpagina, maar ik loop vaak vast bij dingen die mij niet lukken. Dan zit ik een uur dingen uit te proberen voor 1 ding, en dan lukt het uiteindelijk niet waardoor ik dan het oversla. 
 
+Ik loop vooral vast bij de css. Ik vind het last om dingen te positioneren, bijvoorbeeld wanneer ik flex of grid moet gebruiken. 
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  ### Eigen vragen:
+- header?
+- hoe zet ik andere dingen over een plaatje? --> plaatje als achtergrond
+- 2e font?  franklin-gothic-compressed,sans-serif —> andere zoeken dat er op lijkt
+- buttons footer kleur?
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+- Een section moet een heading hebben
+- Aria-label
+- Figure tag —> alleenstaande foto’s
+- Nav
+- footer h4 —> h2
+- grid of z-index
+- Voor de form id gebruiken?
 
 </details>
 
@@ -121,40 +123,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-Deze week ben ik vooral bezuig geweest met de html afmaken. Hiernaast ben ik ook begonnen met de css van mijn beginpagina, maar ik loop vaak vast bij dingen die mij niet lukken. Dan zit ik een uur dingen uit te proberen voor 1 ding, en dan lukt het uiteindelijk niet waardoor ik dan het oversla. 
-
-Ik loop vooral vast bij de css. Ik vind het last om dingen te positioneren, bijvoorbeeld wanneer ik flex of grid moet gebruiken. 
+Ik ben vooral bezig geweest met de header en footer afmaken. Ik liep hier enorm vast, omdat ik soms gewoon niet weet welke properties ik moet gebruiken. Hierdoor maak ik het veel te moeilijk voor mijzelf. 
 
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1   nina   | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-Eigen vragen:
-- header?
-- hoe zet ik andere dingen over een plaatje? --> plaatje als achtergrond
-- 2e font?  franklin-gothic-compressed,sans-serif
+  ### Eigen vragen:
+- Border header, hoe?
 - buttons footer kleur
+- Hoe buttons in het midden?
+- Footer section 2 achtergrond wit?
+- Opdrachten als bron aangeven?
+- Hoe kan ik meerdere sections in 1x selecteren
+- Hoe krijg ik de woorden in een list meer naar rechts?
 
+https://chrome.dev/carousel-configurator/
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+Button, link, link, button van maken
+Nav van maken met <ul> <li> en <a>
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+Input email {
+Appearance:none;
+Border:none;
+Border-bottom: solid 1px “kleur”;
+}
+
+Input mag in de <label> staan.
 
 </details>
-
-
-
 
 
 ## Toegankelijkheidstest 2/2 (week 4)
@@ -178,25 +172,36 @@ Eigen vragen:
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  ### Eigen vragen
+  Feedback 3:
+Eigen vragen:
+- Borders?
+- Font
+- Buttons Foster kleur
+- Pijltje naast de H3 carrousel 2
+- Scroll buttons carrousel?
+- Video stylen?
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+Border in carrousel:
+ul {
+Display: flex;
+Background: rood;
+Gap: 1px;
+(Padding)
+}
+
+Li {
+Background: wit;
+}
+
+Voor video:
+https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Audio_and_video_delivery
+
+border: 1px var(--color-main) solid;
 
 </details>
 
@@ -238,8 +243,13 @@ Eigen vragen:
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio (radio buttons stylen/hoe je ze in een form moet aangeven)
+  2. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
+  3. Lesopdrachten: grid, hamburgermenu (javascript), animatie
+  4. Chatgpt (alleen voor kleine dingen, zoals hoe ik makkelijker bepaalde tags moet selecteren in css, dus niet voor stukken code).
+  5. https://chrome.dev/carousel-configurator/ (carousel)
+  6. https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp (inspiratie voor javascript)
+  7. https://chatgpt.com/share/691a2989-58b8-8000-a0da-f1280c668205 (Ik heb chatgpt gebruikt voor de scroll buttons)
+
 
 </details>

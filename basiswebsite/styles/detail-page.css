@@ -1,0 +1,472 @@
+/* Bron: https://chrome.dev/carousel-configurator/ */
+main section:first-of-type {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content max-content max-content max-content;
+}
+
+main section:first-of-type h1 {
+    margin: 0;
+    font-family:'FranklinGothic';
+    font-size: 1.3em;
+    padding-left: 1em;
+}
+
+main section:first-of-type p {
+    font-family: 'BananaGrotesk', sans-serif;
+    padding-left: 1em;
+    margin: .5em;
+}
+
+main section:first-of-type ul {
+    padding: 0;
+    margin:0;
+	padding: 1px;
+	list-style-type:"";
+
+    display: flex;
+	
+    position: relative;
+    display: flex;
+
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+
+    grid-row-start: 1;
+}
+
+.carousel__slide {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+
+/* Bron: https://chatgpt.com/share/691a2989-58b8-8000-a0da-f1280c668205 */
+.carousel--scroll-buttons::scroll-button(*) {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    z-index: 2;
+}
+
+.carousel--scroll-buttons::scroll-button(left) {
+    left: 0.5rem;
+    content:"◀";
+    color: var(--color-main);
+    color: var(--color-main);
+    border: none;
+    background: none;
+}
+  
+.carousel--scroll-buttons::scroll-button(right) {
+    right: 0.5rem;
+    content: "▶";
+    color: var(--color-main);
+    border: none;
+    background: none;
+}
+
+
+main section:first-of-type li {
+    list-style: none;
+}
+
+main section:first-of-type img {
+    width: 23.5em;
+}
+
+main section:first-of-type aside {
+    border: 1px var(--color-licht-link) solid;
+    border-radius: 5px;
+    margin: 0 1em 1em 1em;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+main section:first-of-type aside p {
+    margin: 0;
+    padding: .5em 1em 0 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: .75em;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main section:first-of-type aside img {
+    width: 3.8em;
+    justify-self: end;
+}
+
+main section:first-of-type aside a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--color-standard);
+    font-size: .75em;
+}
+
+main section:nth-of-type(2) p {
+    margin: 0;
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .8em;
+    padding: 1.5em;
+    border-top: 1px var(--border-light) solid;
+    border-bottom: 1px var(--border-light) solid;
+}
+
+main section:nth-of-type(3) {
+    border-bottom: 1px var(--border-light) solid;
+}
+
+main section:nth-of-type(3) p {
+    margin: 0;
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .8em;
+    padding: 1.5em;
+}
+
+main section:nth-of-type(3) svg {
+    width: 1.3em;
+    height: 1.3em;
+    margin-bottom: 1em;
+    padding: 1px;
+}  
+
+main section:nth-of-type(3) svg:first-of-type {
+    margin-left: 1.5em;
+    border: 1px var(--color-main) solid;
+    border-radius: 10px;
+}
+
+main section:nth-of-type(3) svg:last-of-type {
+    margin-left: .5em;
+    border: 1px var(--color-licht-link) solid;
+    border-radius: 10px;
+}
+
+main section:nth-of-type(4) {
+    border-bottom: 1px var(--border-light) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main section:nth-of-type(4) p {
+    margin: 0;
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .8em;
+    padding: 1.5em;
+}
+
+main section:nth-of-type(4) a {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .8em;
+    color: var(--color-link);
+    padding-right: 1.5em;
+}
+
+main section:nth-of-type(5) {
+    border-bottom: 1px var(--border-light) solid;
+    display: flex;
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+main section:nth-of-type(5) a {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .8em;
+    color: var(--color-main);
+    margin-left: .1em;
+}
+
+main section:nth-of-type(5) svg {
+    margin-left: 1.5em;
+}
+
+main section:nth-of-type(6) {
+    padding: 1em;
+    border-bottom: 1px var(--border-light) solid;
+}
+
+main section:nth-of-type(6) a {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .75em;
+    color: var(--color-link);
+}
+
+main section:nth-of-type(7) {
+    background-color: var(--color-main);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+main section:nth-of-type(7) ul {
+    color: var(--color-background);
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main section:nth-of-type(7) a {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .75em;
+    color: var(--color-background);
+}
+
+main section:nth-of-type(7) svg {
+    width: .4em;
+    height: .4em;
+    margin: .5em;
+}
+
+main section:nth-of-type(7) button {
+    background-color: var(--color-background);
+    border: none;
+    color: var(--color-main);
+    font-size: .6em;
+    font-family: 'BananaGrotesk', sans-serif;
+    margin: .6em;
+}
+
+main section:nth-of-type(8) {
+    background-color: var(--color-main);
+    border-bottom: 1.4em var(--color-main) solid;
+}
+
+main section:nth-of-type(8) summary {
+    font-family: 'BananaGrotesk', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: var(--color-background);
+    font-size: .9em;
+}
+
+main section:nth-of-type(8) details {
+    background-color: var(--color-background);
+    margin-left: 1.4em;
+    margin-right: 1.4em;
+}
+
+main section:nth-of-type(8) details h3 {
+    font-family: 'BananaGrotesk', sans-serif;
+    margin: 0;
+    padding: 1em 1em 0 1em;
+    font-size: .9em;
+}
+
+main section:nth-of-type(8) details:nth-of-type(1) p {
+    font-family: 'BananaGrotesk', sans-serif;
+    margin: 0;
+    padding: .5em 1em 1em 1em;
+    font-size: .8em;
+    color: var(--color-link);
+    letter-spacing: .2px;
+    line-height: 1.43;
+}
+
+main section:nth-of-type(8) details:nth-of-type(2) p {
+    padding-left: 1em;
+    font-family: 'BananaGrotesk', sans-serif;
+    margin: 0;
+    font-size: .8em;
+    color: var(--color-link);
+    letter-spacing: .2px;
+    line-height: 1.43;
+}
+
+main section:nth-of-type(8) details:nth-of-type(2) p:first-of-type {
+    padding-top: .5em;
+}
+
+main section:nth-of-type(8) details:nth-of-type(3) p {
+    padding-left: 1em;
+    font-family: 'BananaGrotesk', sans-serif;
+    margin: 0;
+    font-size: .8em;
+    color: var(--color-link);
+    letter-spacing: .2px;
+    line-height: 1.43;
+}
+
+main section:nth-of-type(8) details:nth-of-type(3) svg {
+    margin-left: 1em;
+}
+
+main section:nth-of-type(8) details:nth-of-type(3) svg:nth-of-type(2) {
+    margin-top: 1em;
+}
+
+main section:nth-of-type(8) details:nth-of-type(3) button {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .9em;
+    background-color: var(--color-main);
+    border: none;
+    color: var(--color-background);
+    padding: .8em 2.8em .8em 2.8em;
+    margin: 1em;
+}
+
+main section:nth-of-type(9) {
+    border: 1px var(--color-main) solid;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: max-content max-content;
+    background-color: var(--color-background);
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    z-index: 4;
+    margin-top: 1em;
+}
+
+main section:nth-of-type(9) h2 {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .75em;
+    margin: 0 0 0 .8em;
+}
+
+main section:nth-of-type(9) p {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: 1em;
+    margin: 0 0 .8em 0 ;
+}
+
+main section:nth-of-type(9) button:first-of-type {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: 0.9em;
+    color: var(--color-background);
+    background-color: var(--color-main);
+    border: none;
+    padding: .8em 7em;
+    border: 1px var(--color-main) solid;
+}
+
+main section:nth-of-type(9) button:first-of-type:hover {
+    background-color: var(--color-background);
+    border: 1px var(--color-main) solid;
+    color: var(--color-main);
+    transition: color .3s ease;
+}
+
+main section:nth-of-type(9) button:last-of-type {
+    border: 1px var(--color-main) solid;
+    background-color: var(--color-background);
+    padding-top: .5em;
+}
+
+main section:nth-of-type(9) button:last-of-type svg path {
+    fill: var(--color-main);
+}
+
+main section:nth-of-type(9) button:last-of-type.liked {
+    background-color: var(--color-main);
+    border-left: 1px var(--color-background) solid;
+    animation-name:like-animation;
+    animation-duration:1s;
+}
+
+@keyframes like-animation {
+    0% {
+      scale:1;
+    }
+    50% {
+      scale:1.2;
+    }
+    100% {
+        scale:1;
+      }
+}
+
+main section:nth-of-type(9) button:last-of-type.liked svg path {
+    fill: var(--color-background);
+}
+
+main section:nth-of-type(10) {
+    margin-top: 3em;
+    padding-bottom: 3em;
+}
+
+main section:nth-of-type(10) h2 {
+    font-family:'FranklinGothic';
+    color: var(--color-main);
+    font-size: 1.8em;
+    margin: 0;
+    margin-right: 4.4em;
+    padding: .5em;
+    border: 1px var(--color-main) solid;
+    border-bottom: none;
+}
+
+/* Bron: https://chrome.dev/carousel-configurator/ */
+main section:nth-of-type(10) ul {
+    padding: 0;
+    margin:0;
+	padding: 1px;
+	list-style-type:"";
+	
+	display:flex;
+	overflow-x:auto;
+    gap: 1px;
+	
+	scroll-snap-type:x mandatory;
+	scroll-behavior:smooth;
+	
+	overscroll-behavior-x:contain;
+
+    background-color: var(--color-main);
+}
+
+main section:nth-of-type(10) li {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 13em 2em;
+    grid-template-rows: 20em max-content;
+    background-color: var(--color-background);
+}
+
+main section:nth-of-type(10) li img {
+    width: 13em;
+    grid-column-start:1;
+    grid-row-start:1;
+}
+
+main section:nth-of-type(10) li h3 {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: .7em;
+    grid-row-start: 2;
+    margin: 0;
+    padding: 1em;
+    padding-top: 0;
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+
+main section:nth-of-type(10) li p {
+    font-family: 'BananaGrotesk', sans-serif;
+    font-size: 0.9em;
+    grid-row-start: 3;
+    margin: 0;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+main section:nth-of-type(10) li svg {
+    margin-top: .5em;
+    margin-right: .5em;
+}
+
+
+
+
+
+

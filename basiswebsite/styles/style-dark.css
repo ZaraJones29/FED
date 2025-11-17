@@ -1,0 +1,181 @@
+/* Bron: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp */
+
+/* Header */
+/* section 2 */
+.dark-mode header > section:nth-of-type(2) ul {
+    background-color: var(--color-background);
+}
+
+.dark-mode header > section:nth-of-type(2) button {
+    background-color: var(--dark-mode);
+    color: var(--color-background);
+
+}
+
+.dark-mode header > section:nth-of-type(2) a {
+    background-color: var(--dark-mode);
+}
+
+.dark-mode header > section:nth-of-type(2) svg path {
+    fill: var(--color-background);
+}
+
+/* article */
+.dark-mode header article {
+    background-color: var(--dark-mode);
+}
+
+/* article section 1 */
+.dark-mode header article section:nth-of-type(1) ul {
+    background-color: var(--dark-mode);
+}
+
+.dark-mode header article section:nth-of-type(1) li {
+    color: var(--color-background);
+}
+
+.dark-mode header article section:nth-of-type(1) li svg {
+    fill: var(--color-background);
+}
+
+/* article section 2 */
+.dark-mode header article section:nth-of-type(2) {
+    background-color: var(--color-background);
+}
+
+.dark-mode header article section:nth-of-type(2) a {
+    color: var(--dark-mode);
+}
+
+.dark-mode header article section:nth-of-type(2) {
+    border-bottom: 1px var(--dark-mode) solid;
+}
+
+/* article section 3 */
+.dark-mode header article section:nth-of-type(3) {
+    background-color: var(--color-background);
+}
+
+.dark-mode header article section:nth-of-type(3) button {
+    background-color: var(--color-background);
+    color: var(--dark-mode);
+    border: none;
+}
+
+.dark-mode header article section:nth-of-type(3) svg path {
+    stroke: var(--dark-mode);
+}
+
+/* article section 4 */
+.dark-mode header article section:nth-of-type(4) {
+    border-bottom: 1px var(--color-background) solid;
+}
+
+.dark-mode header article section:nth-of-type(4) a {
+    color: var(--color-background);
+}
+
+.dark-mode header article section:nth-of-type(4) svg path {
+    fill: var(--color-background);
+}
+
+/* article section 5 */
+.dark-mode header article section:nth-of-type(5) {
+    border-bottom: 1px var(--color-background) solid;
+}
+
+.dark-mode header article section:nth-of-type(5) a {
+    color: var(--color-background);
+}
+
+.dark-mode header article section:nth-of-type(5) svg path {
+    fill: var(--color-background);
+}
+
+/* article section 6 */
+.dark-mode header article section:nth-of-type(5) {
+    border-bottom: 1px var(--color-background) solid;
+}
+
+.dark-mode header article section:nth-of-type(6) button {
+    background-color: var(--dark-mode);
+    color: var(--color-background);
+} 
+
+/* Footer */
+.dark-mode footer {
+    background-color: var(--color-background);
+}
+
+.dark-mode footer section {
+    background-color: var(--dark-mode);
+}
+
+.dark-mode footer h3,
+.dark-mode footer p {
+    color: var(--color-background);
+}
+
+.dark-mode footer a {
+    background-color: var(--dark-mode);
+    border: 1px var(--color-background) solid;
+    color: var(--color-background);
+}
+
+/* section 1 */
+.dark-mode footer section:first-child {
+    border-top: 2em var(--color-background) solid;
+    background-color: var(--dark-mode);
+}
+
+.dark-mode footer section:first-child button {
+    background-color: var(--dark-mode);
+    color: var(--color-background);
+    border: 1px var(--color-background) solid;
+}
+
+.dark-mode footer section:first-child input[type="email"] {
+    background-color: var(--dark-mode);
+    border-bottom: 1px var(--color-background) solid;
+}
+
+.dark-mode footer section:nth-child(1) label {
+    color: var(--color-background);
+}
+
+/* section 5 */
+.dark-mode footer section:nth-child(5) {
+    background-color: var(--color-background);
+}
+
+.dark-mode footer section:nth-child(5) details {
+    background-color: var(--dark-mode);
+}
+
+.dark-mode footer section:nth-child(5) summary {
+    color: var(--color-background);
+}
+
+.dark-mode footer section:nth-child(5) summary svg path {
+    fill: var(--color-background);
+}
+
+.dark-mode footer section:nth-child(5) li {
+    color: var(--color-background);
+}
+
+/* section 6 */
+.dark-mode footer section:nth-child(6) svg path {
+    fill: var(--color-background);
+}
+
+
+/* section 7 */
+.dark-mode footer section:nth-child(7) {
+    background-color: var(--color-background);
+}
+
+.dark-mode footer section:nth-child(7) button {
+    background-color: var(--dark-mode);
+    color: var(--color-background);
+}

@@ -1,0 +1,120 @@
+/* Bron: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp */
+/* Section 1 */
+
+.dark-mode main section:nth-of-type(1) article {
+	background-color: var(--dark-mode);
+    border: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(1) article h2 {
+    color: var(--color-background);
+    border-bottom: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(1) article button {
+    background-color: var(--dark-mode);
+    border: 1px var(--color-background) solid;
+}
+
+
+/* Section 2 */
+
+.dark-mode main section:nth-of-type(2) a {
+    background-color: var(--dark-mode);
+    border: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(2) a h2 {
+    color: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(2) a svg {
+    background-color: var(--dark-mode);
+    border: 1px var(--color-background) solid;
+}
+
+/* Section 3*/
+.dark-mode main section:nth-of-type(3) h2 {
+    border: 1px var(--color-background) solid;
+    color: var(--color-background);
+    border-bottom: none;
+}
+
+.dark-mode main section:nth-of-type(3) img {
+    border: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(3) svg path {
+    fill: var(--color-background);
+}
+/* Section 4*/
+.dark-mode main section:nth-of-type(4) h2 {
+    border: 1px var(--color-background) solid;
+    color: var(--color-background);
+    border-bottom: none;
+}
+
+.dark-mode main section:nth-of-type(4) img {
+    border: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(4) svg path {
+    fill: var(--color-background);
+}
+
+/* Section 5 */
+.dark-mode main section:nth-of-type(5) h2 {
+    border: 1px var(--color-background) solid;
+    color: var(--color-background);
+    border-bottom: none;
+}
+
+.dark-mode main section:nth-of-type(5) ul {
+    background-color: var(--dark-mode);
+}
+
+/* Section 6 */
+.dark-mode main section:nth-of-type(6) {
+    border: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(6) button:nth-child(2) {
+    background-color: var(--dark-mode);
+    color: var(--color-background);
+}
+
+/* Section 7 */
+.dark-mode main section:nth-of-type(7) h2 {
+    border: 1px var(--color-background) solid;
+    color: var(--color-background);
+    border-bottom: none;
+}
+
+.dark-mode main section:nth-of-type(7) img {
+    border: 1px var(--color-background) solid;
+}
+
+/* Section 8 */
+.dark-mode main section:nth-of-type(8) h2 {
+    border: 1px var(--color-background) solid;
+    color: var(--color-background);
+    border-bottom: none;
+}
+
+.dark-mode main section:nth-of-type(8) img {
+    border: 1px var(--color-background) solid;
+}
+
+/* Section 9 */
+.dark-mode main section:nth-of-type(9) {
+    background-color: var(--dark-mode);
+}
+
+.dark-mode main section:nth-of-type(9) h3 {
+    color: var(--dark-mode);
+}
+
+.dark-mode main section:nth-of-type(9) img {
+    border: 1px var(--color-background) solid;
+}
+
