@@ -1,0 +1,164 @@
+/* Section 1 */
+.dark-mode main section:first-of-type h1 {
+    color: var(--color-background);
+    padding-top: 1em;
+}
+
+.dark-mode main section:first-of-type aside {
+    background-color: var(--color-background);
+}
+
+.dark-mode main section:first-of-type aside p {
+    color: var(--dark-mode);
+}
+
+.dark-mode main section:first-of-type > p {
+    color: var(--color-background);
+}
+
+/* Section 2 */
+.dark-mode main section:nth-of-type(2) {
+    border-top: 1px var(--color-background) solid;
+    border-bottom: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(2) p {
+    color: var(--color-background);
+}
+
+/* Section 3 */
+.dark-mode main section:nth-of-type(3) {
+    border-bottom: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(3) p {
+    color: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(3) svg:first-of-type {
+    border: 1px var(--color-background) solid;
+}
+
+/* Section 4 */
+.dark-mode main section:nth-of-type(4) {
+    border-bottom: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(4) p {
+    color: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(4) a {
+    color: var(--color-licht-link);
+}
+
+/* Section 5 */
+.dark-mode main section:nth-of-type(5) {
+    border-bottom: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(5) a {
+    color: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(5) svg path {
+    fill: var(--color-background);
+}
+
+/* Section 6 */
+.dark-mode main section:nth-of-type(6) a {
+    color: var(--color-licht-link);
+}
+
+/* Section 7 */
+.dark-mode main section:nth-of-type(7) {
+    background-color: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(7) a {
+    color: var(--dark-mode);
+} 
+
+.dark-mode main section:nth-of-type(7) svg circle {
+    fill: var(--dark-mode);
+} 
+
+.dark-mode main section:nth-of-type(7) button {
+    background-color: var(--dark-mode);
+    color: var(--color-background);
+}
+
+/* Section 8 */
+.dark-mode main section:nth-of-type(8) {
+    background-color: var(--color-background);
+    border-bottom: 1.4em var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(8) summary {
+    background-color: var(--dark-mode);
+    color: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(8) summary svg path {
+    fill: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(8) details {
+    background-color: var(--dark-mode);
+    color: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(8) details p {
+    color: var(--color-licht-link);
+}
+
+.dark-mode main section:nth-of-type(8) details svg path {
+    fill: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(8) details button {
+    background-color: var(--dark-mode);
+    border: 1px var(--color-background) solid;
+}
+
+/* Section 9 */
+.dark-mode main section:nth-of-type(9) {
+    border: 1px var(--color-background) solid;
+    background-color: var(--dark-mode);
+}
+
+.dark-mode main section:nth-of-type(9) p, 
+.dark-mode main section:nth-of-type(9) h2 {
+    color: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(9) button:first-of-type {
+    background-color: var(--dark-mode);
+    border: 1px var(--color-background) solid;
+}
+
+.dark-mode main section:nth-of-type(9) button:first-of-type:hover {
+    color: var(--dark-mode);
+    background-color: var(--color-background);
+}
+
+.dark-mode main section:nth-of-type(9) button:last-of-type {
+    background-color: var(--dark-mode);
+    border: 1px var(--color-background) solid;
+}
+
+/* Section 10 */
+.dark-mode main section:nth-of-type(10) h2 {
+    color: var(--color-background);
+    border: 1px var(--color-background) solid;
+    border-bottom: none;
+}
+
+.dark-mode main section:nth-of-type(10) ul {
+    background-color: var(--dark-mode);
+}
+
+.dark-mode main section:nth-of-type(10) h3,
+.dark-mode main section:nth-of-type(10) p {
+    color: var(--dark-mode);
+}
