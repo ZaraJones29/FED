@@ -2,6 +2,7 @@
 
 /* Header */
 /* section 2 */
+
 .dark-mode header > section:nth-of-type(2) ul {
     background-color: var(--color-background);
 }
@@ -20,12 +21,16 @@
     fill: var(--color-background);
 }
 
+
 /* article */
+
 .dark-mode header article {
     background-color: var(--dark-mode);
 }
 
+
 /* article section 1 */
+
 .dark-mode header article section:nth-of-type(1) ul {
     background-color: var(--dark-mode);
 }
@@ -38,7 +43,9 @@
     fill: var(--color-background);
 }
 
+
 /* article section 2 */
+
 .dark-mode header article section:nth-of-type(2) {
     background-color: var(--color-background);
 }
@@ -51,7 +58,9 @@
     border-bottom: 1px var(--dark-mode) solid;
 }
 
+
 /* article section 3 */
+
 .dark-mode header article section:nth-of-type(3) {
     background-color: var(--color-background);
 }
@@ -66,7 +75,9 @@
     stroke: var(--dark-mode);
 }
 
+
 /* article section 4 */
+
 .dark-mode header article section:nth-of-type(4) {
     border-bottom: 1px var(--color-background) solid;
 }
@@ -79,7 +90,9 @@
     fill: var(--color-background);
 }
 
+
 /* article section 5 */
+
 .dark-mode header article section:nth-of-type(5) {
     border-bottom: 1px var(--color-background) solid;
 }
@@ -92,7 +105,9 @@
     fill: var(--color-background);
 }
 
+
 /* article section 6 */
+
 .dark-mode header article section:nth-of-type(5) {
     border-bottom: 1px var(--color-background) solid;
 }
@@ -101,6 +116,10 @@
     background-color: var(--dark-mode);
     color: var(--color-background);
 } 
+
+
+
+
 
 /* Footer */
 .dark-mode footer {
@@ -122,7 +141,9 @@
     color: var(--color-background);
 }
 
+
 /* section 1 */
+
 .dark-mode footer section:first-child {
     border-top: 2em var(--color-background) solid;
     background-color: var(--dark-mode);
@@ -143,7 +164,9 @@
     color: var(--color-background);
 }
 
+
 /* section 5 */
+
 .dark-mode footer section:nth-child(5) {
     background-color: var(--color-background);
 }
@@ -164,13 +187,16 @@
     color: var(--color-background);
 }
 
+
 /* section 6 */
+
 .dark-mode footer section:nth-child(6) svg path {
     fill: var(--color-background);
 }
 
 
 /* section 7 */
+
 .dark-mode footer section:nth-child(7) {
     background-color: var(--color-background);
 }

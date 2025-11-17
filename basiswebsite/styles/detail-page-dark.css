@@ -1,3 +1,5 @@
+
+
 /* Section 1 */
 .dark-mode main section:first-of-type h1 {
     color: var(--color-background);
@@ -16,7 +18,9 @@
     color: var(--color-background);
 }
 
+
 /* Section 2 */
+
 .dark-mode main section:nth-of-type(2) {
     border-top: 1px var(--color-background) solid;
     border-bottom: 1px var(--color-background) solid;
@@ -26,7 +30,9 @@
     color: var(--color-background);
 }
 
+
 /* Section 3 */
+
 .dark-mode main section:nth-of-type(3) {
     border-bottom: 1px var(--color-background) solid;
 }
@@ -39,7 +45,9 @@
     border: 1px var(--color-background) solid;
 }
 
+
 /* Section 4 */
+
 .dark-mode main section:nth-of-type(4) {
     border-bottom: 1px var(--color-background) solid;
 }
@@ -52,7 +60,9 @@
     color: var(--color-licht-link);
 }
 
+
 /* Section 5 */
+
 .dark-mode main section:nth-of-type(5) {
     border-bottom: 1px var(--color-background) solid;
 }
@@ -65,12 +75,16 @@
     fill: var(--color-background);
 }
 
+
 /* Section 6 */
+
 .dark-mode main section:nth-of-type(6) a {
     color: var(--color-licht-link);
 }
 
+
 /* Section 7 */
+
 .dark-mode main section:nth-of-type(7) {
     background-color: var(--color-background);
 }
@@ -88,7 +102,9 @@
     color: var(--color-background);
 }
 
+
 /* Section 8 */
+
 .dark-mode main section:nth-of-type(8) {
     background-color: var(--color-background);
     border-bottom: 1.4em var(--color-background) solid;
@@ -121,7 +137,9 @@
     border: 1px var(--color-background) solid;
 }
 
+
 /* Section 9 */
+
 .dark-mode main section:nth-of-type(9) {
     border: 1px var(--color-background) solid;
     background-color: var(--dark-mode);
@@ -147,7 +165,9 @@
     border: 1px var(--color-background) solid;
 }
 
+
 /* Section 10 */
+
 .dark-mode main section:nth-of-type(10) h2 {
     color: var(--color-background);
     border: 1px var(--color-background) solid;

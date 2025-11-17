@@ -76,7 +76,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/Diesel-breakdown.jpg" width="375px" alt="Breakdown van beide pagina's">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/IMG_0064.jpgg" width="375px" alt="Breakdown van een dynamisch deel">
+  <img src="readme-images/IMG_0064.jpg" width="375px" alt="Breakdown van een dynamisch deel">
 
 </details>
 
@@ -158,6 +158,11 @@ Input mag in de <label> staan.
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  1. De screenreader leest mijn site prima, alleen wordt de content van mijn hamburger menu opgelezen zonder dat het is geopend. 
+  2. Iets wat ik heb verbeterd is dat er duidelijke heading in de code staan. Op de website zelf van Diesel stonden er geen duidelijke headings en er was bijvoorbeeld geen h1 op de home pagina.
+  3. In mijn site wordt de video niet automatisch afgespeeld en is de audio automatisch gemute. 
+  4. Ik heb een dark mode toegevoegd. Die heeft de originele site niet.
+
 
 </details>
 
@@ -215,19 +220,19 @@ border: 1px var(--color-main) solid;
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Klaar-1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Klaar-2.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik vind persoonlijk coderen echt helemaal niks, maar ik ben alsnog heel trots op het eindresultaat. Aangezien ik al heel lang niet heb gecodeerd voor deze opdracht vond ik het lastig om te beginnen, want ik wist het niet allemaal meer. Doordat ik veel ben gaan typen, merkte ik dat dingen weer terugkwamen waardoor het makkelijker werd.
+  Dingen die ik heb geleerd hoe je svg's kunt stylen, hoe je een carousel kan maken, hoe je dingen makkelijk kunt positioneren met flex en grid. Hiernaast heb ik ook andere kleinere dingen geleerd, maar ik zijn denk ik wel de 'belangrijkste'.
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Dingen die minder goed gingen was bijvoorbeeld de carousel buttons op de detail pagina. Ik snapte totaal niet hoe deze werkte, dus heb ik uiteindelijk chatgpt ervoor gebruikt. Zelf probeer ik zo weinig mogelijk chatgpt te gebruiken maar soms is het wel handig om te kijken welke tags je bijvoorbeeld het beste kan gebruiken. 
+  Hiernaast begreep ik ook niet hoe ik de radio buttons kon stylen, dus daarom zijn die nog zwart. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 

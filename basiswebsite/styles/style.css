@@ -34,6 +34,7 @@ body {
 	margin:0;
 }
 
+/* Bron: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp */
 .dark-mode {
     background-color: var(--dark-mode);
 }
@@ -144,6 +145,7 @@ header.is-open article {
 	translate: 0%;
 }
 
+
 /* article section 1 */
 
 header article section:nth-of-type(1) ul {
@@ -188,6 +190,7 @@ header article section:nth-of-type(2) img {
 
 
 /* article section 3 */
+
 header article section:nth-of-type(3) {
 	background-color: var(--color-main);
 	border-top: .5px var(--color-background) solid;
@@ -213,8 +216,8 @@ header article section:nth-of-type(3) button {
 }
 
 
-
 /* article section 4 */
+
 header article section:nth-of-type(4) {
 	padding: 1.5em 0 1.5em 1em ;
 	border-bottom: 1px var(--color-main) solid;
@@ -269,7 +272,6 @@ header article section:nth-of-type(6) button {
 	font-size: .9em;
 	color: var(--color-main);
 }
-
 
 .visually-hidden {
 	clip: rect(0 0 0 0);
@@ -329,6 +331,9 @@ footer a {
 	justify-content: center;
 }
 
+
+/* section 1 */
+
 footer section:nth-child(1) {
 	margin: 1.3em;
 	margin-top: 4.5em;
@@ -371,6 +376,9 @@ footer section:nth-child(1) p {
 	padding: 1em 0em 2.5em 0em;
 }
 
+
+/* section 2 */
+
 footer section:nth-child(2) {
 	margin: 1.3em;
 	background-color: var(--color-background);
@@ -385,6 +393,9 @@ footer section:nth-child(2) p {
 	padding: 1em 0em 2.5em 0em;
 }
 
+
+/* section 3 */
+
 footer section:nth-child(3) {
 	margin: 1.3em;
 	background-color: var(--color-background);
@@ -395,6 +406,8 @@ footer section:nth-child(3) p {
 }
 
 
+/* section 4 */
+
 footer section:nth-child(4) {
 	margin: 1.3em;
 	background-color: var(--color-background);
@@ -404,6 +417,9 @@ footer section:nth-child(4) {
 footer section:nth-child(4) p {
 	padding: 1em 0em 2.5em 0em;
 }
+
+
+/* section 5 */
 
 footer section:nth-child(5) {
 	background-color: var(--color-main);
@@ -437,6 +453,9 @@ footer summary {
 	padding: 1.5em;
 }
 
+
+/* section 6 */
+
 footer section:nth-child(6) {
 	background-color: var(--color-background);
 	margin: 0;
@@ -465,6 +484,9 @@ footer section:nth-child(6) li {
 	padding: .75em;
 }
 
+
+/* section 7 */
+
 footer section:nth-child(7) {
 	background-color: var(--color-main);
 	display: flex;
@@ -477,12 +499,14 @@ footer section:nth-child(7) {
 
 footer section:nth-child(7) button {
 	flex: 1; 
-	/* betekent dat de buttons 1 groot deel moeten innenen */
 	border: none;
 	background-color: var(--color-background);
 	font-size: 1em;
 	gap: 1px;
 }
+
+
+/* section 8 */
 
 footer section:nth-child(8) {
 	background-color: var(--color-background);
