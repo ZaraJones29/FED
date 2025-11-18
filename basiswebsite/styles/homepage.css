@@ -287,12 +287,12 @@ main section:nth-of-type(6) button:last-of-type {
 
 
 /* Section 7 */
-
 main section:nth-of-type(7) h2 {
     border: 1px var(--color-main) solid;
     padding: .5em;
     margin: 0;
     margin-left: .7em;
+    display: inline-block;
 }
 
 main section:nth-of-type(7) img {
@@ -311,6 +311,7 @@ main section:nth-of-type(8) h2 {
     padding: .5em;
     margin: 0;
     margin-left: .7em;
+    display: inline-block;
 }
 
 main section:nth-of-type(8) img {

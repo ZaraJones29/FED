@@ -403,6 +403,8 @@ main section:nth-of-type(9) button:last-of-type.liked {
     animation-duration:1s;
 }
 
+
+/* Bron: Lesopdracht  */
 @keyframes like-animation {
     0% {
       scale:1;
